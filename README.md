@@ -64,21 +64,25 @@ Users can:
 
 MERN-Project/
 ├── client/ # React Frontend
-│ ├── public/
+│ ├── public/ # Static assets (index.html, icons, etc.)
 │ ├── src/
-│ │ ├── components/ # Reusable UI components
-│ │ ├── pages/ # Habit, Dashboard, Auth pages
-│ │ ├── context/ # Global state (User, Habits)
-│ │ └── App.js
-│ └── package.json
+│ │ ├── components/ # Reusable UI components (Navbar, HabitCard, etc.)
+│ │ ├── pages/ # Main pages (Dashboard, Login, Register, Habit Details)
+│ │ ├── context/ # Global state (UserContext, HabitContext)
+│ │ ├── utils/ # Helper functions & API services
+│ │ └── App.js # Main React entry point
+│ ├── .env.example # Example environment variables for frontend
+│ └── package.json # Frontend dependencies and scripts
 │
 ├── server/ # Node + Express Backend
-│ ├── models/ # MongoDB Schemas (User, Habit)
-│ ├── routes/ # API Routes
-│ ├── controllers/ # Logic for each route
-│ ├── middleware/ # Auth middleware
-│ └── server.js
+│ ├── config/ # Database connection & environment setup
+│ ├── models/ # Mongoose Schemas (User, Habit)
+│ ├── routes/ # API Routes (Auth, Habits)
+│ ├── controllers/ # Route logic and database operations
+│ ├── middleware/ # Authentication and validation middleware
+│ ├── utils/ # Utility modules (token handling, error handling)
+│ └── server.js # Entry point of the backend server
 │
-├── .env.example # Example environment variables
-├── package.json
-└── README.md
+├── .env.example # Example environment configuration file
+├── package.json # Root configuration for both client & server
+└── README.md # Project documentation
