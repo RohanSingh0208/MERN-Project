@@ -3,7 +3,7 @@
 A full-stack **Personal Habit Tracker** web application built using the **MERN stack** (MongoDB, Express.js, React.js, Node.js).  
 It helps users **track their daily habits**, **visualize progress**, and **stay consistent** with their goals — all in one clean, modern dashboard.
 
-🌐 **Live Demo:** [https://mern-habit-tracker-nete.bolt.host](https://mern-habit-tracker-nete.bolt.host)
+🌐 **Live Demo:** [https://mern-habit-tracker-nete.bolt.host](https://mern-habit-tracker-nete.bolt.host/)
 
 ---
 
